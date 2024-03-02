@@ -47,6 +47,7 @@ flavor-base-clean = clean
 flavor-base-alkaline = alkaline
 flavor-base-holy = holy
 flavor-base-horrible = horrible
+flavor-base-gluzoopi = gluzoopi
 
 # lmao
 flavor-base-terrible = terrible
