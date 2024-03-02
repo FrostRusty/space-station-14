@@ -336,6 +336,20 @@
     - MobShark
 
 - type: entity
+  name: Gun Carp Spawner
+  id: SpawnMobCarpGun
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+    - state: green
+    - state: icon
+      sprite: Mobs/Aliens/Carps/guncarp.rsi
+  - type: ConditionalSpawner
+    prototypes:
+    - MobCarpGun
+
+- type: entity
   name: Hamster Hamlet Spawner
   id: SpawnMobHamsterHamlet
   parent: MarkerBase
